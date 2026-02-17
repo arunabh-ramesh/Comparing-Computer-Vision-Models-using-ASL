@@ -1,0 +1,24 @@
+Acessing Kaggle Dataset
+
+The Kaggle API token (`kaggle.json`) goes here depending on your OS:
+
+Linux/WSL:
+~/.kaggle/kaggle.json
+  
+Windows:
+C:\Users\<YourUsername>\.kaggle\kaggle.json
+
+
+Steps:
+1. Go to kaggle.com → your profile → **Settings** → **API** → **Create New Token**
+2. It downloads `kaggle.json` automatically
+3. Move it to the right location:
+
+Linux/WSL:
+mkdir -p ~/.kaggle
+mv ~/.kaggle/kaggle.json 
+chmod 600 ~/.kaggle/kaggle.json  # restrict permissions (Linux/WSL)
+
+Window:
+mkdir -p ~/.kaggle
+mv ~/Downloads/kaggle.json 
