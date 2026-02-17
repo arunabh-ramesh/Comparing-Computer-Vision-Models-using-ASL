@@ -22,3 +22,6 @@ chmod 600 ~/.kaggle/kaggle.json  # restrict permissions (Linux/WSL)
 Window:
 mkdir -p ~/.kaggle
 mv ~/Downloads/kaggle.json 
+
+When you are ready to acess the dataset, run this execution in your terminal: 
+./Dataset/data.sh
